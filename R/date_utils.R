@@ -3,7 +3,7 @@
 #'
 #' @param date Vector of dates to be converted to integers
 #'
-#' @return
+#' @return vector of date idnts
 #' @export
 #'
 #' @examples convert_date_to_idnt(Sys.Date())

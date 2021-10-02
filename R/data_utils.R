@@ -1,11 +1,11 @@
 #' Title
 #'
 #' @param train_dat Dataframe to be split
-#' @param partitions
-#' @param prop
+#' @param partitions Number of partitions that the data is to be split into (defaults to 3)
+#' @param prop Set of proportions to split the dataset (should sum to 1)
 #' @param seed
 #'
-#' @return
+#' @return list of split datasets
 #' @export
 #'
 #' @examples
